@@ -1,0 +1,392 @@
+/* landscape tablets, small screens >= 768px */
+
+@media only screen and (min-width: 768px) {
+    /* MAIN STYILING */
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #content {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #latest-books {
+        max-width: 100%;
+        min-width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2em 1em 3em 1em;
+    }
+
+    #header-img {
+        width: 100%;
+        margin: 10px, 0, 10px, 0;
+        padding: 0;
+    }
+
+    /* CARDS */
+    .author {
+        margin: 0 0 7px 5px;
+    }
+
+    .card {
+        margin: 10px;
+        max-height: 200px;
+        max-width: 100px;
+        border-radius: 5px;
+        background-color: rgba(129, 169, 215, 0.5);
+        height: fit-content;
+    }
+
+    .cards {
+        margin-left: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .card-img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .home-titles {
+        margin-left: 1em;
+    }
+
+    .title {
+        margin: 0 0 5px 5px;
+    }
+
+    .txt-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    #latest-books {
+        min-width: 300px;
+        max-width: 60%;
+    }
+
+    /* NEWS */
+    #news {
+        background-color: rgba(129, 169, 215, 0.5);;
+        border-radius: 10px;
+        min-width: 300px;
+        max-width: 60%;
+        margin: 2em 1em 3em 1em;
+    }
+
+    .news-content {
+        margin: 0 20px;
+        height: 353px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.5);
+        overflow-y: scroll;
+    }
+
+    .news-item {
+        background-color: white;
+        min-height: min-content;
+        height: fit-content;
+        border-radius: 10px;
+    }
+
+    .news-item h6, .news-item h4, .news-item p {
+        max-width: 200px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .news-item h6 {
+        padding: 10px 0 0 0;
+        margin-bottom: 0;
+    }
+
+    .news-item h4 {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    .news-item p {
+        padding: 0 0 10px 0;
+        margin-top: 0;
+    }
+}
+
+/* phones */
+
+@media only screen and (max-width: 768px) {
+    /* MAIN STYILING */
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #latest-books {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1em -10em 2em -10em;
+    }
+
+    #latest-books h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #header-img {
+        width: 100%;
+        margin: 10px, 0, 10px, 0;
+        padding: 0;
+    }
+
+    /* CARDS */
+    .author {
+        margin: 0 0 7px 5px;
+    }
+
+    .card {
+        margin: 10px;
+        max-height: 200px;
+        max-width: 100px;
+        border-radius: 5px;
+        background-color: rgba(129, 169, 215, 0.5);
+        height: fit-content;
+    }
+
+    .cards {
+        width: 100%;
+        margin-left: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .card-img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .home-titles {
+        margin-left: 1em;
+    }
+
+    .title {
+        margin: 0 0 5px 5px;
+    }
+
+    .txt-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    #latest-books {
+        min-width: 300px;
+        max-width: 60%;
+    }
+
+    /* NEWS */
+    #news {
+        background-color: rgba(129, 169, 215, 0.5);;
+        border-radius: 10px;
+        width: 90%;
+        margin: 2em 0 3em 0;
+    }
+
+    .news-content {
+        margin: 0 20px 20px 20px;
+        height: 353px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.5);
+        overflow-y: scroll;
+    }
+
+    .news-item {
+        background-color: white;
+        min-height: min-content;
+        height: fit-content;
+        border-radius: 10px;
+    }
+
+    .news-item h6, .news-item h4, .news-item p {
+        max-width: 200px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .news-item h6 {
+        padding: 10px 0 0 0;
+        margin-bottom: 0;
+    }
+
+    .news-item h4 {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    .news-item p {
+        padding: 0 0 10px 0;
+        margin-top: 0;
+    }
+}
+
+/* large screens */
+
+@media only screen and (min-width: 1200px) {
+    /* MAIN STYILING */
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #content {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #latest-books {
+        max-width: 100%;
+        min-width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2em 1em 3em 1em;
+    }
+
+    #header-img {
+        width: 100%;
+        margin: 10px, 0, 10px, 0;
+        padding: 0;
+    }
+
+    /* CARDS */
+    .author {
+        margin: 0 0 7px 5px;
+    }
+
+    .card {
+        margin: 10px;
+        max-height: 200px;
+        max-width: 100px;
+        border-radius: 5px;
+        background-color: rgba(129, 169, 215, 0.5);
+        height: fit-content;
+    }
+
+    .cards {
+        margin-left: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .card-img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .home-titles {
+        margin-left: 1em;
+    }
+
+    .title {
+        margin: 0 0 5px 5px;
+    }
+
+    .txt-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    #latest-books {
+        min-width: 300px;
+        max-width: 60%;
+    }
+
+    /* NEWS */
+    #news {
+        background-color: rgba(129, 169, 215, 0.5);;
+        border-radius: 10px;
+        min-width: 300px;
+        max-width: 60%;
+        margin: 2em 1em 3em 1em;
+    }
+
+    .news-content {
+        margin: 0 20px;
+        height: 353px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.5);
+        overflow-y: scroll;
+    }
+
+    .news-item {
+        background-color: white;
+        min-height: min-content;
+        height: fit-content;
+        border-radius: 10px;
+    }
+
+    .news-item h6, .news-item h4, .news-item p {
+        max-width: 200px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .news-item h6 {
+        padding: 10px 0 0 0;
+        margin-bottom: 0;
+    }
+
+    .news-item h4 {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    .news-item p {
+        padding: 0 0 10px 0;
+        margin-top: 0;
+    }
+}
